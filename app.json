@@ -17,7 +17,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "We need to confirm we're not letting the wrong person access to your Finances"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -30,3 +33,7 @@
     }
   }
 }
+
+
+
+
